@@ -592,7 +592,7 @@
   }
 
   function ne() {
-    let e = document.querySelector(".ctp-checkbox-label");
+    let e = document.getElementsByTagName('map')[0]?.children[0];
     e == null || e.click()
   }
   var re = "cloudflare",
